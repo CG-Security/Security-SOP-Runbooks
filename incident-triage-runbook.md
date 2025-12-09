@@ -37,3 +37,16 @@ Applies to all user-reported incidents, system alerts, and observed suspicious a
 - Events accurately classified.
 - Critical issues escalated immediately.
 - Triage records complete and auditable.
+
+## Framework Alignment
+
+| Framework | Control | Description |
+|----------|---------|-------------|
+| NIST 800-53 | IR-4 | Incident handling and triage. |
+| NIST 800-53 | IR-5 | Incident monitoring. |
+| NIST 800-53 | AU-6 | Log review and analysis during triage. |
+| NIST CSF | DE.CM-1 | Detection of anomalous activity. |
+| NIST CSF | DE.AE-2 | Triage events to understand attack scope. |
+| NIST CSF | RS.AN-1 | Analyze notifications from detection systems. |
+| CIS Controls | 17.4 | Conduct incident analysis. |
+| CIS Controls | 17.5 | Maintain incident logs and documentation. |
