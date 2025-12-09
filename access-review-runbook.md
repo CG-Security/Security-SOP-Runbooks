@@ -45,3 +45,15 @@ Applies to all user accounts, privileged accounts, service accounts, and applica
 - All inappropriate or unnecessary access is removed or corrected.
 - All privileged access has documented justification.
 - Review results are recorded and auditable.
+
+## Framework Alignment
+
+| Framework | Control | Description |
+|----------|---------|-------------|
+| NIST 800-53 | AC-2 | Account management and periodic review of accounts. |
+| NIST 800-53 | AC-2(3) | Disables accounts when no longer needed. |
+| NIST 800-53 | AC-2(7) | Role-based account management. |
+| NIST CSF | PR.AC-1 | Identities and credentials are issued, managed, and verified. |
+| NIST CSF | PR.AC-4 | Access permissions and authorizations are managed. |
+| CIS Controls | 5.3 | Validate access rights for all user accounts. |
+| CIS Controls | 6.3 | Require MFA for administrative accounts. |
