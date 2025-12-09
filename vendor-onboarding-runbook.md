@@ -1,0 +1,38 @@
+# Vendor Onboarding Runbook
+
+## Purpose
+To ensure new SaaS platforms or vendors undergo proper security evaluation prior to adoption.
+
+## Scope
+All third-party providers handling internal or customer data.
+
+## Preconditions
+- Completed vendor intake form
+- Security documentation availability (SOC 2, ISO, penetration test)
+
+## Roles
+- Security Analyst: Performs assessment
+- Procurement: Manages contracting
+- System Owner: Validates business need
+
+## Procedure
+1. Review vendor intake documentation.
+2. Collect available security reports (SOC 2, ISO, pen test, etc.).
+3. Identify data types handled by the vendor.
+4. Evaluate:
+   - Authentication model
+   - Encryption practices
+   - Logging and audit capabilities
+   - Data storage locations
+5. Document security risks and recommendations.
+6. Approve or deny onboarding based on findings.
+7. Record final decision and retain documentation.
+
+## Evidence Requirements
+- Vendor intake form
+- Security assessment notes
+- Approval decision
+
+## Success Criteria
+- Risks clearly identified and documented.
+- Vendor meets minimum security requirements.
