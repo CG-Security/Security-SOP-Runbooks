@@ -1,9 +1,10 @@
+# Security-SOP-Runbooks
+
 [![Category](https://img.shields.io/badge/Type-Security%20Runbooks-blue)]()
 [![Focus](https://img.shields.io/badge/Focus-GRC%20%7C%20SecOps-lightgrey)]()
+[![Coverage](https://img.shields.io/badge/Includes-SOPs%20%7C%20Templates%20%7C%20Mappings-green)]()
 [![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)]()
 [![License](https://img.shields.io/badge/License-MIT-yellow)]()
-
-# Security-SOP-Runbooks
 
 This repository contains security Standard Operating Procedures (SOPs) designed to support consistent, repeatable execution of core security functions. These runbooks document operational workflows that strengthen governance, improve audit readiness, and reduce ambiguity during day-to-day security activities.
 
@@ -13,7 +14,7 @@ The goal is to provide clear, practical guidance for processes used in real envi
 
 ## Repository Structure
 
-The SOPs are stored at the root of this repository for ease of navigation.
+The SOPs and templates are stored at the root of this repository or within the `Templates/` folder for ease of navigation.
 
     access-review-runbook.md
     iam-lifecycle-runbook.md
@@ -24,7 +25,14 @@ The SOPs are stored at the root of this repository for ease of navigation.
     vendor-offboarding-runbook.md
     backup-and-recovery-runbook.md
     audit-evidence-collection-runbook.md
-    logging-and-monitoring-runbook.md   (placeholder until added)
+    logging-and-monitoring-runbook.md
+
+    Templates/
+       access-review-worksheet.md
+       incident-intake-form.md
+       audit-evidence-template.md
+       vendor-security-questionnaire.md
+       patch-validation-checklist.md
 
 ---
 
@@ -58,45 +66,69 @@ Defines operational expectations for backup scheduling, integrity checks, test r
 Standardized procedure for collecting, validating, naming, storing, and transmitting audit evidence for internal and external assessments.
 
 ### Logging and Monitoring Runbook
-Defines expectations for log collection, retention, health checks, monitoring responsibilities, alert triage workflow, and validation of logging completeness.  
-(Full SOP coming soon.)
+Defines expectations for log collection, retention, health checks, monitoring responsibilities, alert triage workflow, and validation of logging completeness.
+
+---
+
+## Templates
+
+This repository includes a collection of operational templates that support the execution of the SOPs. These templates provide standardized documentation formats used during access reviews, incident handling, audit evidence collection, vendor evaluations, and patch validation.
+
+All templates are located in the `Templates/` folder.
+
+### Available Templates
+
+- **Access Review Worksheet**  
+  A structured table for documenting quarterly or periodic access reviews, including privileged access validation, reviewer notes, identified issues, and required actions.
+
+- **Incident Intake Form**  
+  Standardized form used to capture initial details of potential security incidents, including reporter information, system impact, evidence, severity estimation, and triage notes.
+
+- **Audit Evidence Collection Template**  
+  Template aligned with the Audit Evidence SOP for documenting evidence requests, validation checklists, storage details, and reviewer sign-off for audits and assessments.
+
+- **Vendor Security Questionnaire**  
+  Due-diligence questionnaire aligned to the Vendor Onboarding SOP. Captures information on authentication, encryption, incident response, certifications, and subcontractors.
+
+- **Patch Validation Checklist**  
+  A repeatable checklist used during monthly patch cycles to verify patch deployment, reboots, service health checks, rescans, and exceptions.
 
 ---
 
 ## Purpose
 
-These SOPs are intended for organizations that want to improve consistency across recurring security operations. They support:
+These SOPs and templates support organizations in improving consistency across recurring security operations. They help teams operationalize security practices by providing:
 
-- Governance, Risk, and Compliance (GRC) programs
-- Audit preparation and evidence collection
-- IAM and access governance
-- Vulnerability and patch management
-- Incident response and logging strategy
-- Vendor risk and lifecycle management
-- Operational standardization across security teams
+- Standardized, repeatable workflows  
+- Clear documentation for governance and audit readiness  
+- Guidance for IAM, vulnerability management, vendor evaluation, and incident handling  
+- Tools for collecting, validating, and organizing audit evidence  
+- Operationally mature logging and monitoring processes  
 
-All SOPs are generic and safe for public use.
+All SOPs and templates are generic and safe for public use.
 
 ---
 
 ## Roadmap
 
 ### Near-Term Additions
-- Complete Logging and Monitoring SOP
+- Expand Logging and Monitoring SOP with alerting examples
 - Add Change Management SOP
-- Add Audit Evidence template examples
+- Add Risk Acceptance Workflow SOP
 - Add Data Classification and Handling SOP
+- Add additional templates for evidence review and escalation workflows
 
 ### Enhancements to Existing SOPs
-- Add validation checklists to Access Review SOP
-- Expand decision matrix in Incident Triage SOP
-- Add remediation SLA guidance to Vulnerability Management SOP
-- Expand Vendor Onboarding risk evaluation section
+- Add validation checklists to the Access Review SOP
+- Expand decision matrix in the Incident Triage SOP
+- Add remediation SLA guidance to the Vulnerability Management SOP
+- Expand Vendor Onboarding risk evaluation and authentication model review
 
 ### Long-Term Goals
-- Add optional mapping tables for CIS Controls, NIST CSF, and NIST 800-53 across all SOPs
+- Add mapping tables across CIS Controls, NIST CSF, and NIST 800-53 for all SOPs
 - Introduce automation examples for evidence collection and IAM reviews
-- Create templates for escalation, communication, and workflow approvals
+- Create templates for escalations, approvals, and communication during incidents
+- Add supplementary diagrams or flowcharts for key workflows
 
 ---
 
