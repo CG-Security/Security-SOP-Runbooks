@@ -37,10 +37,9 @@ All vendor relationships being terminated.
 
 | Framework | Control | Description |
 |----------|---------|-------------|
-| NIST 800-53 | SA-9 | External system and service provider risk management. |
-| NIST 800-53 | SR-3 | Supply chain risk management processes. |
-| NIST 800-53 | SR-5 | Assess supplier security documentation and controls. |
-| NIST CSF | ID.SC-3 | Suppliers and third-party partners are evaluated for risk. |
-| NIST CSF | ID.SC-4 | Supply chain processes are monitored. |
-| CIS Controls | 15.1 | Establish third-party security requirements. |
-| CIS Controls | 15.4 | Assess service provider compliance. |
+| NIST 800-53 | SA-9(2) | Termination of system and service provider relationships. |
+| NIST 800-53 | MP-6 | Media sanitization and data deletion. |
+| NIST 800-53 | AC-2(8) | Removal of system access when no longer needed. |
+| NIST CSF | ID.SC-4 | Termination processes for third-party services. |
+| CIS Controls | 15.5 | Ensure proper offboarding of service providers. |
+| CIS Controls | 6.6 | Remove accounts and credentials after use. |
