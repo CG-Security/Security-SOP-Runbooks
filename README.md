@@ -79,6 +79,30 @@ All content is generic and safe for public use.
 
 ---
 
+
+## Roadmap
+
+This roadmap outlines planned improvements and upcoming SOP additions.
+
+### Near-Term Additions
+- Logging and Monitoring SOP
+- Change Management SOP
+- Audit Evidence Collection SOP
+- Data Classification and Handling SOP
+
+### Enhancements to Existing SOPs
+- Add validation checklists to the Access Review SOP
+- Expand Incident Triage decision matrix
+- Add remediation SLAs to Vulnerability Management SOP
+- Include risk acceptance workflow in Vendor Onboarding SOP
+
+### Long-Term Goals
+- Add optional crosswalks to NIST CSF, NIST 800-53, and CIS Controls
+- Introduce automation examples for evidence collection
+- Build templates for communication and escalation plans
+
+---
+
 ## Contact
 
 Questions, suggestions, or contribution ideas can be submitted through GitHub issues.
