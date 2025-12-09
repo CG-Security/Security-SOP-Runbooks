@@ -7,51 +7,59 @@
 
 This repository contains security Standard Operating Procedures (SOPs) designed to support consistent, repeatable execution of core security functions. These runbooks document operational workflows that strengthen governance, improve audit readiness, and reduce ambiguity during day-to-day security activities.
 
-The goal is to provide clear, practical guidance for processes used in real environments, including identity management, patching, vulnerability remediation, vendor evaluation, and incident response.
+The goal is to provide clear, practical guidance for processes used in real environments, including identity management, access reviews, patching, vulnerability remediation, vendor evaluation, incident response, audit evidence handling, and logging/monitoring operations.
 
 ---
 
 ## Repository Structure
 
-    SOPs/
-    ├─ access-review-runbook.md
-    ├─ iam-lifecycle-runbook.md
-    ├─ vendor-onboarding-runbook.md
-    ├─ vendor-offboarding-runbook.md
-    ├─ monthly-patching-runbook.md
-    ├─ vulnerability-management-process.md
-    ├─ incident-triage-runbook.md
-    └─ backup-and-recovery-runbook.md
+The SOPs are stored at the root of this repository for ease of navigation.
 
-Each runbook is written in a consistent structure to support clarity, adoption, and auditability.
+    access-review-runbook.md
+    iam-lifecycle-runbook.md
+    monthly-patching-runbook.md
+    vulnerability-management-process.md
+    incident-triage-runbook.md
+    vendor-onboarding-runbook.md
+    vendor-offboarding-runbook.md
+    backup-and-recovery-runbook.md
+    audit-evidence-collection-runbook.md
+    logging-and-monitoring-runbook.md   (placeholder until added)
 
 ---
 
 ## SOP Summaries
 
 ### Access Review Runbook
-Defines steps for conducting periodic privileged and standard access reviews. Includes user exports, HR reconciliation, service account validation, least-privilege verification, and documentation requirements.
+Workflow for performing periodic access reviews, validating user entitlements, privileged access, and service accounts, aligned with least privilege principles and compliance needs.
 
 ### IAM Lifecycle Runbook
-Outlines onboarding, role changes, and offboarding processes for user identities. Covers access provisioning, separation of duties, role modifications, MFA enrollment, and account deactivation workflows.
+Defines onboarding, access modification, and offboarding procedures to ensure consistent, secure identity lifecycle management.
 
 ### Monthly Patching Runbook
-Documents operational workflows for patch cycles including scan review, prioritization, scheduling, deployment steps, validation checks, and exception handling.
+Operational workflow for monthly patch cycles, including prioritization, scheduling, validation, rescans, and documentation requirements.
 
 ### Vulnerability Management Process
-Describes the end-to-end workflow for identifying, prioritizing, remediating, and tracking vulnerabilities. Includes intake, classification, and reporting expectations.
+End-to-end workflow for vulnerability intake, validation, prioritization, remediation tracking, and exception handling.
 
 ### Incident Triage Runbook
-Provides a structured method for taking in and evaluating potential security incidents. Covers reporter intake, classification, initial logs, containment steps, severity estimation, and handoff procedures.
+Structured procedure for evaluating and triaging security events, collecting initial evidence, performing containment, and escalating high-severity cases.
 
 ### Vendor Onboarding Runbook
-Outlines the steps for evaluating new SaaS or vendor platforms including security documentation review, data flow considerations, authentication model analysis, and contract requirements.
+Security evaluation workflow for new SaaS vendors or service providers, including documentation review, authentication model analysis, and risk identification.
 
 ### Vendor Offboarding Runbook
-Defines the process for removing vendor access or terminating SaaS use, including data extraction or deletion, access revocation, and record retention.
+Procedures for terminating vendor relationships, performing data extraction or deletion, removing access, and updating inventories.
 
 ### Backup and Recovery Runbook
-Documents data and system backup requirements, verification steps, testing schedules, and restoration procedures.
+Defines operational expectations for backup scheduling, integrity checks, test restores, and system recovery workflows.
+
+### Audit Evidence Collection Runbook
+Standardized procedure for collecting, validating, naming, storing, and transmitting audit evidence for internal and external assessments.
+
+### Logging and Monitoring Runbook
+Defines expectations for log collection, retention, health checks, monitoring responsibilities, alert triage workflow, and validation of logging completeness.  
+(Full SOP coming soon.)
 
 ---
 
@@ -59,50 +67,39 @@ Documents data and system backup requirements, verification steps, testing sched
 
 These SOPs are intended for organizations that want to improve consistency across recurring security operations. They support:
 
-- Governance, Risk, and Compliance (GRC) programs  
-- Audit preparation and evidence collection  
-- IAM and access governance  
-- Vulnerability and patch management  
-- Vendor security evaluations  
-- Operational standardization for security teams  
+- Governance, Risk, and Compliance (GRC) programs
+- Audit preparation and evidence collection
+- IAM and access governance
+- Vulnerability and patch management
+- Incident response and logging strategy
+- Vendor risk and lifecycle management
+- Operational standardization across security teams
 
-All content is generic and safe for public use.
-
----
-
-## Current Work
-
-- Adding additional SOPs for logging and monitoring  
-- Creating standardized templates for escalation and communication  
-- Expanding evidence collection expectations within each SOP  
-- Adding cross-references to NIST CSF, NIST 800-53, and CIS Controls  
+All SOPs are generic and safe for public use.
 
 ---
-
 
 ## Roadmap
 
-This roadmap outlines planned improvements and upcoming SOP additions.
-
 ### Near-Term Additions
-- Logging and Monitoring SOP
-- Change Management SOP
-- Audit Evidence Collection SOP
-- Data Classification and Handling SOP
+- Complete Logging and Monitoring SOP
+- Add Change Management SOP
+- Add Audit Evidence template examples
+- Add Data Classification and Handling SOP
 
 ### Enhancements to Existing SOPs
-- Add validation checklists to the Access Review SOP
-- Expand Incident Triage decision matrix
-- Add remediation SLAs to Vulnerability Management SOP
-- Include risk acceptance workflow in Vendor Onboarding SOP
+- Add validation checklists to Access Review SOP
+- Expand decision matrix in Incident Triage SOP
+- Add remediation SLA guidance to Vulnerability Management SOP
+- Expand Vendor Onboarding risk evaluation section
 
 ### Long-Term Goals
-- Add optional crosswalks to NIST CSF, NIST 800-53, and CIS Controls
-- Introduce automation examples for evidence collection
-- Build templates for communication and escalation plans
+- Add optional mapping tables for CIS Controls, NIST CSF, and NIST 800-53 across all SOPs
+- Introduce automation examples for evidence collection and IAM reviews
+- Create templates for escalation, communication, and workflow approvals
 
 ---
 
 ## Contact
 
-Questions, suggestions, or contribution ideas can be submitted through GitHub issues.
+Questions, suggestions, or contributions can be submitted through GitHub issues.
