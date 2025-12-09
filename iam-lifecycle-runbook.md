@@ -50,3 +50,16 @@ Covers all user accounts, administrator accounts, and service accounts.
 - No active access remains after offboarding.
 - Users receive only appropriate access.
 - All lifecycle actions are fully documented.
+
+## Framework Alignment
+
+| Framework | Control | Description |
+|----------|---------|-------------|
+| NIST 800-53 | AC-2 | Account creation, modification, disabling, and removal. |
+| NIST 800-53 | IA-4 | Identifier management. |
+| NIST 800-53 | IA-5 | Authenticator management, password requirements, MFA. |
+| NIST CSF | PR.AC-1 | Identities and credentials are provisioned and managed. |
+| NIST CSF | PR.AC-3 | Remote access and privileged account enforcement. |
+| NIST CSF | PR.AC-5 | Network integrity and boundary protections. |
+| CIS Controls | 5.2 | Establish and maintain an inventory of accounts. |
+| CIS Controls | 6.2 | Ensure MFA is enforced for user access. |
