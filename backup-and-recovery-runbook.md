@@ -32,3 +32,15 @@ All critical systems, servers, and data repositories.
 - Backups completed on schedule
 - Successful restoration during tests
 - Recovery performed without data loss
+
+## Framework Alignment
+
+| Framework | Control | Description |
+|----------|---------|-------------|
+| NIST 800-53 | CP-9 | Backup of information and system state. |
+| NIST 800-53 | CP-10 | System recovery and restoration. |
+| NIST 800-53 | SI-13 | Monitoring backup integrity. |
+| NIST CSF | PR.IP-4 | Backups of information are maintained and tested. |
+| NIST CSF | PR.IP-9 | Response and recovery plans are executed. |
+| CIS Controls | 11.2 | Perform automated backups. |
+| CIS Controls | 11.3 | Protect and test backup data. |
