@@ -1,3 +1,8 @@
+[![Category](https://img.shields.io/badge/Type-Security%20Runbooks-blue)]()
+[![Focus](https://img.shields.io/badge/Focus-GRC%20%7C%20SecOps-lightgrey)]()
+[![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)]()
+[![License](https://img.shields.io/badge/License-MIT-yellow)]()
+
 # Security-SOP-Runbooks
 
 This repository contains security Standard Operating Procedures (SOPs) designed to support consistent, repeatable execution of core security functions. These runbooks document operational workflows that strengthen governance, improve audit readiness, and reduce ambiguity during day-to-day security activities.
