@@ -39,3 +39,15 @@ Applies to all servers, endpoints, and applications that receive periodic patche
 - Critical and high vulnerabilities remediated.
 - System stability maintained.
 - Patch cycle fully documented.
+
+## Framework Alignment
+
+| Framework | Control | Description |
+|----------|---------|-------------|
+| NIST 800-53 | SI-2 | Flaw remediation and patching activities. |
+| NIST 800-53 | RA-5 | Vulnerability scanning before and after remediation. |
+| NIST 800-53 | CM-3 | Configuration change control related to updates. |
+| NIST CSF | PR.IP-12 | Vulnerabilities are identified and addressed. |
+| NIST CSF | DE.CM-8 | Vulnerability scans are performed. |
+| CIS Controls | 7.3 | Apply security updates across enterprise assets. |
+| CIS Controls | 7.6 | Validate patching effectiveness via rescan. |
